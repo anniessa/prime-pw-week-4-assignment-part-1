@@ -73,10 +73,17 @@ console.log(getLast(listOfNums));
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
+let friends = ['Zack', 'Portia', 'Anna']
 function find( value, array ){
-  
+  for (let element of array) {
+    if (element === value) {
+      return true;
+    }
+  }
+  return false;
 }
-console.log(find());
+console.log(find('Anna', friends));
+console.log(find('Mary', friends));
 // ----------------------
 // Stretch Goals
 // ----------------------
