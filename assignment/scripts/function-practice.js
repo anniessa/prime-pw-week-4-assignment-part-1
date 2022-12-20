@@ -122,3 +122,13 @@ console.log(findPositives(inputArray));
 // 11. Pick a problem from Edabit(https://edabit.com/) or 
 //     CodeWars(https://www.codewars.com/). Then describe it 
 //     here in a comment, write the function, and test it!
+
+// Write a function that takes an integer minutes and converts it to seconds.
+let minutes = " ";
+function convert(minutes) {
+  return minutes * 60;
+}
+console.log("190 minutes is " + convert(190) + " seconds.");
+console.log("11 minutes is " + convert(11) + " seconds.");
+console.log("60 minutes is " + convert(60) + " seconds.");
+console.log(".5 minutes is " + convert(.5) + " seconds.");
