@@ -45,9 +45,12 @@ console.log('5 times 6 times 9 equals', multiplyThree(5,6,9));
 //    or greater than zero, and false otherwise
 function isPositive( number ) {
   if ( number > 0 ){
-    return;
+    return true;
   }
-    return;
+  else {
+    return false;
+  }
+
 }
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
