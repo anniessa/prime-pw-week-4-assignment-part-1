@@ -29,14 +29,16 @@ function addNumbers( firstNumber, secondNumber) {
   return answer;
   // return firstNumber + secondNumber;
 }
-console.log('Adding 2 and 3:', addNumbers(2,3));
-console.log('Adding 5592 and 615:', addNumbers(5592,615));
+console.log('Adding 2 and 3 equals', addNumbers(2,3));
+console.log('Adding 5592 and 615 equals', addNumbers(5592,615));
 
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree( ){
-
+function multiplyThree( num0, num1, num2){
+let answer = num0 * num1 * num2
+return answer
 }
+console.log('5 times 6 times 9 equals', multiplyThree(5,6,9));
 
 
 // 5. Function that will return true if a number is positive, 
